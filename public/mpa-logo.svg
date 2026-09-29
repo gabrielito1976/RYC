@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 215 100" width="430" height="200">
+  <rect width="215" height="100" fill="#1B4F9C"/>
+  <!-- M -->
+  <path d="M 20 80 L 20 20 L 33.5 20 L 47 55 L 60.5 20 L 74 20 L 74 80 L 61.5 80 L 61.5 38 L 50 67 L 44 67 L 32.5 38 L 32.5 80 Z" fill="#FFFFFF"/>
+  <!-- P -->
+  <path d="M 85 80 L 85 20 L 112 20 C 124.5 20 133 28 133 38.5 C 133 49 124.5 57 112 57 L 98 57 L 98 80 Z M 98 32 L 98 45 L 110.5 45 C 116 45 119.5 42.5 119.5 38.5 C 119.5 34.5 116 32 110.5 32 Z" fill="#FFFFFF"/>
+  <!-- A: Inverted V + bottom triangle -->
+  <path d="M 143 80 L 165.5 20 L 178.5 20 L 201 80 L 187.5 80 L 172 38 L 156.5 80 Z" fill="#FFFFFF"/>
+  <path d="M 172 55 L 161 80 L 183 80 Z" fill="#FFFFFF"/>
+</svg>

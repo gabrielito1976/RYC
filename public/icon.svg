@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="primaryGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e3a8a" />
+      <stop offset="100%" stop-color="#2563eb" />
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ef4444" />
+      <stop offset="100%" stop-color="#b91c1c" />
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="16" stdDeviation="20" flood-opacity="0.25"/>
+    </filter>
+  </defs>
+
+  <!-- Background rounded squircle -->
+  <rect width="512" height="512" rx="112" fill="url(#primaryGrad)" />
+  
+  <!-- Sheet paper -->
+  <g filter="url(#shadow)">
+    <path d="M144 96 C135 96 128 103 128 112 L128 400 C128 409 135 416 144 416 L368 416 C377 416 384 409 384 400 L384 176 L304 96 Z" fill="#ffffff" />
+    <path d="M304 96 L304 160 C304 169 311 176 320 176 L384 176 Z" fill="#e2e8f0" />
+  </g>
+
+  <!-- Red PDF Badge -->
+  <rect x="116" y="220" width="104" height="44" rx="8" fill="url(#accentGrad)" />
+  <text x="168" y="251" fill="#ffffff" font-family="system-ui, -apple-system, sans-serif" font-weight="900" font-size="22" text-anchor="middle" letter-spacing="1.5">PDF</text>
+
+  <!-- Report Lines -->
+  <rect x="176" y="152" width="100" height="12" rx="6" fill="#94a3b8" />
+  <rect x="240" y="228" width="112" height="10" rx="5" fill="#cbd5e1" />
+  <rect x="240" y="248" width="80" height="10" rx="5" fill="#cbd5e1" />
+  <rect x="160" y="300" width="192" height="12" rx="6" fill="#94a3b8" />
+  <rect x="160" y="330" width="150" height="12" rx="6" fill="#cbd5e1" />
+
+  <!-- Verification badge / checkmark -->
+  <circle cx="340" cy="350" r="38" fill="#10b981" filter="url(#shadow)" />
+  <path d="M324 350 L335 361 L358 338" fill="none" stroke="#ffffff" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" />
+</svg>
